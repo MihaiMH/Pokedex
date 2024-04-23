@@ -1,0 +1,30 @@
+.main-content{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn-group button{
+    border: 0;
+    height: 50px;
+    width: 100px;
+    border-radius: 7px;
+    background: rgba(95, 158, 160, 0.795);
+    color: white;
+    font-size: 18px;
+    cursor:pointer;
+}
+
+.btn-group button:hover{
+    border: 1px solid rgb(49, 48, 48);
+    font-weight: bold;
+    background-color: rgb(95, 158, 160);
+}

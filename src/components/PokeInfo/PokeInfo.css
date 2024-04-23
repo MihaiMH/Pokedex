@@ -1,0 +1,79 @@
+.pokeinfo {
+    position: fixed;
+    /* or "absolute" */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.pokeinfo-content {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    align-items: center;
+    justify-content: space-between;
+    background: azure;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.close-button {
+    align-self: baseline;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    color: aquamarine;
+}
+
+.pokeinfo-base {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokeinfo-base h2 {
+    margin: 0;
+}
+
+.pokeinfo-base img {
+    height: 180px;
+}
+
+.ability-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+
+.ability {
+    margin: 5px 0;
+    background: antiquewhite;
+    padding: 10px;
+    /* align-items: center; */
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width:1000px) {
+
+    .pokeinfo-content {
+        display: flex;
+        flex-direction: column;
+        width: 99%;
+        align-items: center;
+        justify-content: space-between;
+        background: azure;
+        border-radius: 10px;
+        border: 1px solid gray;
+        padding: 10px;
+    }
+
+}

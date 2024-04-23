@@ -1,0 +1,38 @@
+body{
+  background-color: rgba(222, 184, 135, 0.568);
+}
+
+html,body{
+  margin:0;
+  padding:0;
+  position: relative;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.nav{
+  height: 80px;
+  background: cadetblue;
+  position: sticky;
+}
+
+.nav-details{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  height:100%;
+  margin-left:30px;
+}
+
+.nav-details a{
+  text-decoration: none;
+   color: rgb(255, 255, 255)!important;
+   font-size:1.7rem!important;
+}
+
+.nav-details a:hover{
+  color:rgb(212, 183, 129)!important;
+}
